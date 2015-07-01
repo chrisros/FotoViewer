@@ -50,6 +50,7 @@ public class GetKey implements KeyListener{
             case 70:
                 //f
                 frame.goFullscreen();
+                frame.toFront();
                 break;
             
         }

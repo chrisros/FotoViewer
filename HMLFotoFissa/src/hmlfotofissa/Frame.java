@@ -49,21 +49,29 @@ public class Frame extends JFrame {
         setVisible(true);
         goWindowed();
         iter = leerlingen.listIterator();
-        Dimension size = new Dimension(1920, 1200);
+        Dimension size = new Dimension(1000, 600);
         setMinimumSize(size);
         start = new StartScreen();
         add(start);
     }
 
     public void goFullscreen() {
-        device.setFullScreenWindow(this);
+        removeNotify();
+        setUndecorated(true);
+        addNotify();
         setBackground(Color.BLACK);
+        device.setFullScreenWindow(this);
+        
     }
 
     public void goWindowed() {
+        removeNotify();
+        setUndecorated(false);
+        addNotify();
         device.setFullScreenWindow(null);
-        setLocationRelativeTo(null);
-        setSize(500, 300);
+        setSize(1000, 600);
+        setLocationRelativeTo(null);        
+        toFront();
     }
     
     public void blackOut(){
