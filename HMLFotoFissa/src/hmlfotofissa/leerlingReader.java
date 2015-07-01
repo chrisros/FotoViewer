@@ -21,19 +21,54 @@ public class leerlingReader {
     private ArrayList<Leerling> leerlingen = new ArrayList<>();
     
     public leerlingReader(String path) throws FileNotFoundException{
-            inFile1 = new Scanner(new File(path));
-
-                
+            inFile1 = new Scanner(new File(path));  
+            
     }
     
-    public ArrayList getLeerlingNrs(){
-        int i = 0;
-         while (inFile1.hasNext()) {
-               int lnr = Integer.parseInt(inFile1.next()); 
-               Leerling curLeerling = new Leerling(lnr); 
-               leerlingen.add(curLeerling);
+    private int getLeerlingNummer(String LnrStr){
+        int leerlingnummer = 0;
+        LnrStr = stripNonDigits(LnrStr);
+        if(LnrStr.length()>3){
+        leerlingnummer = Integer.parseInt(LnrStr);
+        }
+        return leerlingnummer;
+    }
+    
+    private String getLeerlingNaam(String lnrStr){
+        String LeerlingNaam;
+        LeerlingNaam = lnrStr.replaceAll("[0-9]","");
+        return LeerlingNaam;
+    }
+    
+    public ArrayList getLeerlingen(){
+        
+         while (inFile1.hasNextLine()) {
+               String lnrStr = inFile1.nextLine();
+               System.out.println(lnrStr);
+               if(lnrStr!=null){
+                    int lnr =  getLeerlingNummer(lnrStr);
+                    String naam = getLeerlingNaam(lnrStr);
+                    if (lnr==0){
+                    } else {
+                        Leerling curLeerling = new Leerling(lnr, naam);
+                        leerlingen.add(curLeerling);
+                   }
+               }
          }
 
         return leerlingen;
     }
+    
+    public static String stripNonDigits(
+            final CharSequence input /* inspired by seh's comment */){
+    final StringBuilder sb = new StringBuilder(
+            input.length() /* also inspired by seh's comment */);
+    for(int i = 0; i < input.length(); i++){
+        final char c = input.charAt(i);
+        if(c > 47 && c < 58){
+            sb.append(c);
+        }
+    }
+    return sb.toString();
+}
 }

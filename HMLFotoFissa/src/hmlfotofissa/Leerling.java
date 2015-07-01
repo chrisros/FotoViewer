@@ -15,8 +15,9 @@ public class Leerling {
     private int Leerlingnummer;
     private String name;
     
-    public Leerling(int lnr){
+    public Leerling(int lnr, String naam){
         Leerlingnummer = lnr;
+        name = naam;
     }
     
     @Override
@@ -29,6 +30,9 @@ public class Leerling {
     }
     public String getName(){
         return name;
+    }
+    public void setName(String name){
+        this.name = name;
     }
     
 }

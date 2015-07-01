@@ -9,13 +9,11 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.GraphicsDevice;
 import java.awt.GraphicsEnvironment;
-import java.awt.event.ComponentEvent;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.ListIterator;
 import javax.imageio.ImageIO;
 import javax.swing.JFrame;
@@ -41,7 +39,7 @@ public class Frame extends JFrame {
         setIconImage(icon);
         setBackground(Color.BLACK);
         leerlingReader reader = new leerlingReader("src/leerlingen.txt");
-        leerlingen = reader.getLeerlingNrs();
+        leerlingen = reader.getLeerlingen();
         GetKey keylistener = new GetKey(this);
         addKeyListener(keylistener);
         device = GraphicsEnvironment.getLocalGraphicsEnvironment().getScreenDevices()[0];
@@ -130,7 +128,7 @@ public class Frame extends JFrame {
                 newP = null;
             }
         }
-        naam = curLnr.toString();
+        naam = curLnr.getName();
         
         fotoView newPanel = new fotoView(oldP, newP, naam);
         newPanel.setFocusable(false);

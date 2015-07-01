@@ -3,15 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Chris/Documents/GitHub/BLOKD/HMLFotoFissa/src/hmlfotofissa/HMLFotoFissa.java</file>
-            <file>file:/C:/Users/Chris/Documents/GitHub/BLOKD/HMLFotoFissa/src/hmlfotofissa/fotoView.java</file>
-            <file>file:/C:/Users/Chris/Documents/GitHub/BLOKD/HMLFotoFissa/src/hmlfotofissa/leerlingReader.java</file>
-            <file>file:/C:/Users/Chris/Documents/GitHub/BLOKD/HMLFotoFissa/src/hmlfotofissa/GetKey.java</file>
-            <file>file:/C:/Users/Chris/Documents/GitHub/BLOKD/HMLFotoFissa/src/hmlfotofissa/Foto.java</file>
-            <file>file:/C:/Users/Chris/Documents/GitHub/BLOKD/HMLFotoFissa/src/hmlfotofissa/FileChooser.java</file>
-            <file>file:/C:/Users/Chris/Documents/GitHub/BLOKD/HMLFotoFissa/src/hmlfotofissa/StartScreen.java</file>
-            <file>file:/C:/Users/Chris/Documents/GitHub/BLOKD/HMLFotoFissa/src/hmlfotofissa/Leerling.java</file>
-            <file>file:/C:/Users/Chris/Documents/GitHub/BLOKD/HMLFotoFissa/src/hmlfotofissa/Frame.java</file>
+            <file>file:/C:/Users/Chris/Documents/GitHub/FotoViewer/HMLFotoFissa/src/hmlfotofissa/Leerling.java</file>
+            <file>file:/C:/Users/Chris/Documents/GitHub/FotoViewer/HMLFotoFissa/src/hmlfotofissa/HMLFotoFissa.java</file>
+            <file>file:/C:/Users/Chris/Documents/GitHub/FotoViewer/HMLFotoFissa/src/hmlfotofissa/Frame.java</file>
+            <file>file:/C:/Users/Chris/Documents/GitHub/FotoViewer/HMLFotoFissa/src/hmlfotofissa/fotoView.java</file>
+            <file>file:/C:/Users/Chris/Documents/GitHub/FotoViewer/HMLFotoFissa/src/hmlfotofissa/StartScreen.java</file>
+            <file>file:/C:/Users/Chris/Documents/GitHub/FotoViewer/HMLFotoFissa/src/hmlfotofissa/leerlingReader.java</file>
         </group>
     </open-files>
 </project-private>
