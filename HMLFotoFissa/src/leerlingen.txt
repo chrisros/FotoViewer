@@ -18,7 +18,7 @@
 10308 Rutger Wijsmuller
 10195 Marlo Barnard
 10108 Sanne Visser
-10593 Mikèl de Jong
+10593 Mikel de Jong
 10600 Darja Dinsbach
 10434 Ruben van Duyneveldt
 10205 Martha Jordaan
@@ -50,16 +50,16 @@
 10332 Bas Kaizer
 10013 Tamar Aarsen
 10170 Catelijne Boele
-10669 Daniëlle Arceo
+10669 Danielle Arceo
 10691 Mees Feekes
 10269 Lara Sluijter
 107637 Alexandra Bouma
 10175 Anne Jonker
-10629 Fabiënne van Oorschot
+10629 Fabienne van Oorschot
 10611 Max Kueter
 10101 Stijn Cuevas Striekwold
 10102 Sanne Thepass
-10728 Tugçe Keskin
+10728 Tugce Keskin
 6993 Lex Nieuwenhuis
 7010 Jeroen van Wely
 10652 Hanna Rozenburg
@@ -82,7 +82,7 @@
 10135 Emma Vrins
 10577 Iris Lampe
 10126 Indy Kisoen
-10132 László Vreedenburgh
+10132 Laszlo Vreedenburgh
 10369 Annaliese Mann
 10188 Floriske Meindertsma
 10356 Ziggy Hommes
@@ -100,7 +100,7 @@
 10690 Sebastiaan Cabooter
 107446 Fleur Plekenpol
 10404 Merel Spijkers
-10708 Kay Kühne
+10708 Kay Kuhne
 10187 Sanne Put
 10435 Simone Taal
 10095 Zen Prins
@@ -135,7 +135,7 @@
 10347 Berend Besseling
 10449 Manolito van der Want
 10148 Fabian Zuccollo
-10385 Esmée Vogelaar
+10385 Esmee Vogelaar
 10190 Floor Edixhoven
 10061 Max Laros
 10429 Hilze Vonck
